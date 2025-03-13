@@ -5,10 +5,12 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <Stars className="logo-icon" />
+      <div className="navbar-brand">
+        <Stars className="logo-icon" />
+        <h1>Astroyapper</h1>
+      </div>
     </nav>
   );
 };
 
 export default Navbar;
-
